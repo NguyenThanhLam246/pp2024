@@ -58,8 +58,6 @@ def get_multi_course_info():
 
 # Function to choose specific course then input mark of enrolled students
 def input_mark(student_list, course_list):
-    
-    
     chosen_course = []
 
     course_id = input("Enter the course ID you'd like to input mark: ")
@@ -80,7 +78,6 @@ def input_mark(student_list, course_list):
     for student in student_list:
         print("Course"+ str(chosen_course[0]) + str(student[0]) + str(chosen_course[2]))
         
-      
 # Main Program to build a student mark management system
 student_list = get_multi_student_info()
 course_list = get_multi_course_info()
